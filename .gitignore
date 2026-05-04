@@ -1,0 +1,69 @@
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Large model files (consider using Git LFS)
+*.pth
+*.joblib
+*.pkl
+*.pickle
+*.zip
+
+# Data directories (large datasets)
+data/raw/
+data/processed/
+dataset/
+data/datasets/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
+.env.bak
+
+# Streamlit
+.streamlit/
+
+# Node (if using any Node tools)
+node_modules/

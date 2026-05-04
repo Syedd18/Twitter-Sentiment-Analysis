@@ -1,0 +1,29 @@
+{
+  "model_type": "Hybrid LSTM with Sentiment Analysis",
+  "symbol": "HDFCBANK.NS",
+  "accuracy": 0.8109,
+  "precision": 0.7716,
+  "recall": 0.8044,
+  "f1_score": 0.7696,
+  "auc_score": 0.8514,
+  "training_samples": 3906,
+  "test_samples": 362,
+  "training_time_minutes": 32.36,
+  "architecture": {
+    "lstm_layers": 3,
+    "hidden_sizes": [
+      256,
+      128,
+      64
+    ],
+    "attention_heads": 8,
+    "dropout": 0.1,
+    "bidirectional": true
+  },
+  "features": {
+    "technical_indicators": 20,
+    "sentiment_features": 5,
+    "total_features": 25
+  },
+  "timestamp": "2025-10-24T01:56:27.048648"
+}

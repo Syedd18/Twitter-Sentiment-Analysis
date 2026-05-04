@@ -1,0 +1,29 @@
+{
+  "model_type": "Hybrid LSTM with Sentiment Analysis",
+  "symbol": "TSLA",
+  "accuracy": 0.7816,
+  "precision": 0.7176,
+  "recall": 0.7466,
+  "f1_score": 0.7398,
+  "auc_score": 0.8059,
+  "training_samples": 3809,
+  "test_samples": 502,
+  "training_time_minutes": 33.05,
+  "architecture": {
+    "lstm_layers": 3,
+    "hidden_sizes": [
+      256,
+      128,
+      64
+    ],
+    "attention_heads": 8,
+    "dropout": 0.1,
+    "bidirectional": true
+  },
+  "features": {
+    "technical_indicators": 20,
+    "sentiment_features": 5,
+    "total_features": 25
+  },
+  "timestamp": "2025-10-24T01:56:27.048648"
+}

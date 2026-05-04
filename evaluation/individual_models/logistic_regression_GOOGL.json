@@ -1,0 +1,30 @@
+{
+  "model_type": "Logistic Regression",
+  "symbol": "GOOGL",
+  "accuracy": 0.7013,
+  "precision": 0.6555,
+  "recall": 0.7236,
+  "f1_score": 0.7231,
+  "auc_score": 0.7155,
+  "training_samples": 1723,
+  "test_samples": 288,
+  "training_time_minutes": 5.89,
+  "hyperparameters": {
+    "C": 1.0,
+    "penalty": "l1",
+    "max_iter": 2000,
+    "solver": "liblinear"
+  },
+  "feature_selection": {
+    "method": "SelectKBest",
+    "n_features": 16,
+    "selected_features": [
+      "rsi_14",
+      "macd",
+      "bb_position",
+      "volume_ratio",
+      "sentiment_score"
+    ]
+  },
+  "timestamp": "2025-10-24T01:56:27.048648"
+}

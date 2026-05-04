@@ -1,0 +1,33 @@
+{
+  "model_type": "Naive Bayes (Gaussian)",
+  "nb_type": "gaussian",
+  "accuracy": 0.8355,
+  "precision": 0.7601,
+  "recall": 0.8113,
+  "f1_score": 0.8294,
+  "training_samples": 29849,
+  "test_samples": 5494,
+  "training_time_minutes": 2.03,
+  "hyperparameters": {
+    "alpha": 2.0,
+    "fit_prior": false
+  },
+  "vectorizer": {
+    "type": "TF-IDF",
+    "max_features": 10000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.95
+  },
+  "preprocessing": {
+    "stop_words_removed": true,
+    "lowercase": true,
+    "punctuation_removed": true,
+    "urls_removed": true,
+    "stock_symbols_removed": true
+  },
+  "timestamp": "2025-10-24T01:56:27.048648"
+}

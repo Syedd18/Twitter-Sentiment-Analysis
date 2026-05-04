@@ -1,0 +1,52 @@
+{
+  "model_type": "Random Forest",
+  "symbol": "AMZN",
+  "accuracy": 0.7441,
+  "precision": 0.7243,
+  "recall": 0.7387,
+  "f1_score": 0.7323,
+  "auc_score": 0.7623,
+  "training_samples": 1453,
+  "test_samples": 253,
+  "training_time_minutes": 14.48,
+  "hyperparameters": {
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_split": 5,
+    "min_samples_leaf": 4,
+    "max_features": "0.5"
+  },
+  "feature_importance": {
+    "rsi_14": 0.1306,
+    "macd": 0.0972,
+    "bb_position": 0.0383,
+    "volume_ratio": 0.0434,
+    "sentiment_score": 0.123,
+    "price_momentum": 0.0492,
+    "volatility": 0.0217,
+    "trend_strength": 0.0986
+  },
+  "top_features": [
+    [
+      "rsi_14",
+      0.1306
+    ],
+    [
+      "sentiment_score",
+      0.123
+    ],
+    [
+      "trend_strength",
+      0.0986
+    ],
+    [
+      "macd",
+      0.0972
+    ],
+    [
+      "price_momentum",
+      0.0492
+    ]
+  ],
+  "timestamp": "2025-10-24T01:56:27.048648"
+}

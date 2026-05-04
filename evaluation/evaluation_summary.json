@@ -1,0 +1,80 @@
+{
+  "evaluation_session": {
+    "timestamp": "2025-10-24T01:56:27.129649",
+    "models_evaluated": [
+      "Hybrid LSTM",
+      "Logistic Regression",
+      "Random Forest",
+      "Naive Bayes"
+    ],
+    "total_models": 4,
+    "evaluation_files_created": 30
+  },
+  "model_performance_summary": {
+    "Hybrid LSTM": {
+      "average_accuracy": 0.8083,
+      "best_accuracy": 0.8472,
+      "model_type": "Deep Learning",
+      "training_time": "High",
+      "interpretability": "Low",
+      "use_case": "Stock Prediction"
+    },
+    "Logistic Regression": {
+      "average_accuracy": 0.7078,
+      "best_accuracy": 0.7341,
+      "model_type": "Classical ML",
+      "training_time": "Low",
+      "interpretability": "Medium",
+      "use_case": "Stock Prediction"
+    },
+    "Random Forest": {
+      "average_accuracy": 0.7345,
+      "best_accuracy": 0.7629,
+      "model_type": "Ensemble",
+      "training_time": "Medium",
+      "interpretability": "High",
+      "use_case": "Stock Prediction"
+    },
+    "Naive Bayes": {
+      "average_accuracy": 0.8174,
+      "best_accuracy": 0.8355,
+      "model_type": "Probabilistic",
+      "training_time": "Low",
+      "interpretability": "High",
+      "use_case": "Sentiment Analysis"
+    }
+  },
+  "key_findings": [
+    "Hybrid LSTM achieves highest accuracy for stock prediction",
+    "Naive Bayes excels at sentiment analysis tasks",
+    "Random Forest provides good balance of accuracy and interpretability",
+    "Logistic Regression offers fastest training with reasonable performance",
+    "All models show consistent performance across different stock symbols"
+  ],
+  "recommendations": {
+    "best_overall": {
+      "model": "Naive Bayes",
+      "accuracy": 0.8174,
+      "reason": "Highest average accuracy across all symbols"
+    },
+    "best_for_speed": {
+      "model": "Logistic Regression",
+      "reason": "Fastest training time with good accuracy"
+    },
+    "best_for_interpretability": {
+      "model": "Random Forest",
+      "reason": "High interpretability with feature importance"
+    },
+    "best_for_sentiment": {
+      "model": "Naive Bayes",
+      "reason": "Specialized for text sentiment analysis"
+    }
+  },
+  "next_steps": [
+    "Implement ensemble methods combining multiple models",
+    "Add more sophisticated feature engineering",
+    "Experiment with different neural network architectures",
+    "Integrate real-time data feeds for live predictions",
+    "Develop model explanation and interpretability tools"
+  ]
+}

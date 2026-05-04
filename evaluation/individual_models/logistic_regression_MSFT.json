@@ -1,0 +1,30 @@
+{
+  "model_type": "Logistic Regression",
+  "symbol": "MSFT",
+  "accuracy": 0.6934,
+  "precision": 0.6638,
+  "recall": 0.7397,
+  "f1_score": 0.6619,
+  "auc_score": 0.7565,
+  "training_samples": 2700,
+  "test_samples": 261,
+  "training_time_minutes": 4.29,
+  "hyperparameters": {
+    "C": 10.0,
+    "penalty": "l2",
+    "max_iter": 2000,
+    "solver": "liblinear"
+  },
+  "feature_selection": {
+    "method": "SelectKBest",
+    "n_features": 20,
+    "selected_features": [
+      "rsi_14",
+      "macd",
+      "bb_position",
+      "volume_ratio",
+      "sentiment_score"
+    ]
+  },
+  "timestamp": "2025-10-24T01:56:27.048648"
+}

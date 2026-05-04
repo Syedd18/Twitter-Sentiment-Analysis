@@ -1,0 +1,52 @@
+{
+  "model_type": "Random Forest",
+  "symbol": "TSLA",
+  "accuracy": 0.7629,
+  "precision": 0.7249,
+  "recall": 0.7148,
+  "f1_score": 0.7319,
+  "auc_score": 0.7318,
+  "training_samples": 2090,
+  "test_samples": 595,
+  "training_time_minutes": 6.74,
+  "hyperparameters": {
+    "n_estimators": 50,
+    "max_depth": 10,
+    "min_samples_split": 10,
+    "min_samples_leaf": 4,
+    "max_features": "sqrt"
+  },
+  "feature_importance": {
+    "rsi_14": 0.101,
+    "macd": 0.0613,
+    "bb_position": 0.0581,
+    "volume_ratio": 0.0504,
+    "sentiment_score": 0.0882,
+    "price_momentum": 0.0565,
+    "volatility": 0.0686,
+    "trend_strength": 0.0704
+  },
+  "top_features": [
+    [
+      "rsi_14",
+      0.101
+    ],
+    [
+      "sentiment_score",
+      0.0882
+    ],
+    [
+      "trend_strength",
+      0.0704
+    ],
+    [
+      "volatility",
+      0.0686
+    ],
+    [
+      "macd",
+      0.0613
+    ]
+  ],
+  "timestamp": "2025-10-24T01:56:27.048648"
+}

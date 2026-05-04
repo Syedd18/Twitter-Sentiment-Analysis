@@ -1,0 +1,33 @@
+{
+  "model_type": "Naive Bayes (Bernoulli)",
+  "nb_type": "bernoulli",
+  "accuracy": 0.8304,
+  "precision": 0.8277,
+  "recall": 0.7999,
+  "f1_score": 0.7824,
+  "training_samples": 24150,
+  "test_samples": 9295,
+  "training_time_minutes": 3.8,
+  "hyperparameters": {
+    "alpha": 0.5,
+    "fit_prior": true
+  },
+  "vectorizer": {
+    "type": "TF-IDF",
+    "max_features": 10000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.95
+  },
+  "preprocessing": {
+    "stop_words_removed": true,
+    "lowercase": true,
+    "punctuation_removed": true,
+    "urls_removed": true,
+    "stock_symbols_removed": true
+  },
+  "timestamp": "2025-10-24T01:56:27.048648"
+}

@@ -1,0 +1,82 @@
+{
+  "model_comparison": {
+    "Hybrid LSTM": {
+      "average_accuracy": 0.8083,
+      "best_accuracy": 0.8472,
+      "model_type": "Deep Learning",
+      "training_time": "High",
+      "interpretability": "Low",
+      "use_case": "Stock Prediction"
+    },
+    "Logistic Regression": {
+      "average_accuracy": 0.7078,
+      "best_accuracy": 0.7341,
+      "model_type": "Classical ML",
+      "training_time": "Low",
+      "interpretability": "Medium",
+      "use_case": "Stock Prediction"
+    },
+    "Random Forest": {
+      "average_accuracy": 0.7345,
+      "best_accuracy": 0.7629,
+      "model_type": "Ensemble",
+      "training_time": "Medium",
+      "interpretability": "High",
+      "use_case": "Stock Prediction"
+    },
+    "Naive Bayes": {
+      "average_accuracy": 0.8174,
+      "best_accuracy": 0.8355,
+      "model_type": "Probabilistic",
+      "training_time": "Low",
+      "interpretability": "High",
+      "use_case": "Sentiment Analysis"
+    }
+  },
+  "performance_ranking": [
+    {
+      "model": "Naive Bayes",
+      "average_accuracy": 0.8174,
+      "best_accuracy": 0.8355,
+      "model_type": "Probabilistic"
+    },
+    {
+      "model": "Hybrid LSTM",
+      "average_accuracy": 0.8083,
+      "best_accuracy": 0.8472,
+      "model_type": "Deep Learning"
+    },
+    {
+      "model": "Random Forest",
+      "average_accuracy": 0.7345,
+      "best_accuracy": 0.7629,
+      "model_type": "Ensemble"
+    },
+    {
+      "model": "Logistic Regression",
+      "average_accuracy": 0.7078,
+      "best_accuracy": 0.7341,
+      "model_type": "Classical ML"
+    }
+  ],
+  "recommendations": {
+    "best_overall": {
+      "model": "Naive Bayes",
+      "accuracy": 0.8174,
+      "reason": "Highest average accuracy across all symbols"
+    },
+    "best_for_speed": {
+      "model": "Logistic Regression",
+      "reason": "Fastest training time with good accuracy"
+    },
+    "best_for_interpretability": {
+      "model": "Random Forest",
+      "reason": "High interpretability with feature importance"
+    },
+    "best_for_sentiment": {
+      "model": "Naive Bayes",
+      "reason": "Specialized for text sentiment analysis"
+    }
+  },
+  "timestamp": "2025-10-24T01:56:27.094454"
+}

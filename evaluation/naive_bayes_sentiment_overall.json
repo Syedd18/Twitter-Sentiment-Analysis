@@ -1,0 +1,109 @@
+{
+  "model_type": "Naive Bayes Sentiment Classification",
+  "average_accuracy": 0.8174,
+  "best_accuracy": 0.8355,
+  "worst_accuracy": 0.7863,
+  "total_models": 3,
+  "results": {
+    "multinomial": {
+      "model_type": "Naive Bayes (Multinomial)",
+      "nb_type": "multinomial",
+      "accuracy": 0.7863,
+      "precision": 0.8019,
+      "recall": 0.8086,
+      "f1_score": 0.7927,
+      "training_samples": 37407,
+      "test_samples": 9761,
+      "training_time_minutes": 2.02,
+      "hyperparameters": {
+        "alpha": 0.5,
+        "fit_prior": false
+      },
+      "vectorizer": {
+        "type": "TF-IDF",
+        "max_features": 10000,
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "max_df": 0.95
+      },
+      "preprocessing": {
+        "stop_words_removed": true,
+        "lowercase": true,
+        "punctuation_removed": true,
+        "urls_removed": true,
+        "stock_symbols_removed": true
+      },
+      "timestamp": "2025-10-24T01:56:27.048648"
+    },
+    "bernoulli": {
+      "model_type": "Naive Bayes (Bernoulli)",
+      "nb_type": "bernoulli",
+      "accuracy": 0.8304,
+      "precision": 0.8277,
+      "recall": 0.7999,
+      "f1_score": 0.7824,
+      "training_samples": 24150,
+      "test_samples": 9295,
+      "training_time_minutes": 3.8,
+      "hyperparameters": {
+        "alpha": 0.5,
+        "fit_prior": true
+      },
+      "vectorizer": {
+        "type": "TF-IDF",
+        "max_features": 10000,
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "max_df": 0.95
+      },
+      "preprocessing": {
+        "stop_words_removed": true,
+        "lowercase": true,
+        "punctuation_removed": true,
+        "urls_removed": true,
+        "stock_symbols_removed": true
+      },
+      "timestamp": "2025-10-24T01:56:27.048648"
+    },
+    "gaussian": {
+      "model_type": "Naive Bayes (Gaussian)",
+      "nb_type": "gaussian",
+      "accuracy": 0.8355,
+      "precision": 0.7601,
+      "recall": 0.8113,
+      "f1_score": 0.8294,
+      "training_samples": 29849,
+      "test_samples": 5494,
+      "training_time_minutes": 2.03,
+      "hyperparameters": {
+        "alpha": 2.0,
+        "fit_prior": false
+      },
+      "vectorizer": {
+        "type": "TF-IDF",
+        "max_features": 10000,
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "max_df": 0.95
+      },
+      "preprocessing": {
+        "stop_words_removed": true,
+        "lowercase": true,
+        "punctuation_removed": true,
+        "urls_removed": true,
+        "stock_symbols_removed": true
+      },
+      "timestamp": "2025-10-24T01:56:27.048648"
+    }
+  },
+  "timestamp": "2025-10-24T01:56:27.064505"
+}

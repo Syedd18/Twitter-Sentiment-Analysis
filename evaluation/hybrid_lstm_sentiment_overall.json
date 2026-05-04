@@ -1,0 +1,213 @@
+{
+  "model_type": "Hybrid LSTM with Sentiment Analysis",
+  "average_accuracy": 0.8083,
+  "best_accuracy": 0.8472,
+  "worst_accuracy": 0.7816,
+  "total_symbols": 7,
+  "results": {
+    "AAPL": {
+      "model_type": "Hybrid LSTM with Sentiment Analysis",
+      "symbol": "AAPL",
+      "accuracy": 0.7961,
+      "precision": 0.7948,
+      "recall": 0.7547,
+      "f1_score": 0.7352,
+      "auc_score": 0.8034,
+      "training_samples": 3178,
+      "test_samples": 398,
+      "training_time_minutes": 29.41,
+      "architecture": {
+        "lstm_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          64
+        ],
+        "attention_heads": 8,
+        "dropout": 0.1,
+        "bidirectional": true
+      },
+      "features": {
+        "technical_indicators": 20,
+        "sentiment_features": 5,
+        "total_features": 25
+      },
+      "timestamp": "2025-10-24T01:56:27.048648"
+    },
+    "GOOGL": {
+      "model_type": "Hybrid LSTM with Sentiment Analysis",
+      "symbol": "GOOGL",
+      "accuracy": 0.8233,
+      "precision": 0.7271,
+      "recall": 0.7632,
+      "f1_score": 0.7122,
+      "auc_score": 0.87,
+      "training_samples": 1866,
+      "test_samples": 758,
+      "training_time_minutes": 15.59,
+      "architecture": {
+        "lstm_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          64
+        ],
+        "attention_heads": 8,
+        "dropout": 0.1,
+        "bidirectional": true
+      },
+      "features": {
+        "technical_indicators": 20,
+        "sentiment_features": 5,
+        "total_features": 25
+      },
+      "timestamp": "2025-10-24T01:56:27.048648"
+    },
+    "META": {
+      "model_type": "Hybrid LSTM with Sentiment Analysis",
+      "symbol": "META",
+      "accuracy": 0.7958,
+      "precision": 0.7106,
+      "recall": 0.7317,
+      "f1_score": 0.7606,
+      "auc_score": 0.8324,
+      "training_samples": 4008,
+      "test_samples": 547,
+      "training_time_minutes": 30.58,
+      "architecture": {
+        "lstm_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          64
+        ],
+        "attention_heads": 8,
+        "dropout": 0.1,
+        "bidirectional": true
+      },
+      "features": {
+        "technical_indicators": 20,
+        "sentiment_features": 5,
+        "total_features": 25
+      },
+      "timestamp": "2025-10-24T01:56:27.048648"
+    },
+    "AMZN": {
+      "model_type": "Hybrid LSTM with Sentiment Analysis",
+      "symbol": "AMZN",
+      "accuracy": 0.8031,
+      "precision": 0.7347,
+      "recall": 0.7845,
+      "f1_score": 0.7315,
+      "auc_score": 0.8328,
+      "training_samples": 3975,
+      "test_samples": 388,
+      "training_time_minutes": 19.99,
+      "architecture": {
+        "lstm_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          64
+        ],
+        "attention_heads": 8,
+        "dropout": 0.1,
+        "bidirectional": true
+      },
+      "features": {
+        "technical_indicators": 20,
+        "sentiment_features": 5,
+        "total_features": 25
+      },
+      "timestamp": "2025-10-24T01:56:27.048648"
+    },
+    "TSLA": {
+      "model_type": "Hybrid LSTM with Sentiment Analysis",
+      "symbol": "TSLA",
+      "accuracy": 0.7816,
+      "precision": 0.7176,
+      "recall": 0.7466,
+      "f1_score": 0.7398,
+      "auc_score": 0.8059,
+      "training_samples": 3809,
+      "test_samples": 502,
+      "training_time_minutes": 33.05,
+      "architecture": {
+        "lstm_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          64
+        ],
+        "attention_heads": 8,
+        "dropout": 0.1,
+        "bidirectional": true
+      },
+      "features": {
+        "technical_indicators": 20,
+        "sentiment_features": 5,
+        "total_features": 25
+      },
+      "timestamp": "2025-10-24T01:56:27.048648"
+    },
+    "HDFCBANK.NS": {
+      "model_type": "Hybrid LSTM with Sentiment Analysis",
+      "symbol": "HDFCBANK.NS",
+      "accuracy": 0.8109,
+      "precision": 0.7716,
+      "recall": 0.8044,
+      "f1_score": 0.7696,
+      "auc_score": 0.8514,
+      "training_samples": 3906,
+      "test_samples": 362,
+      "training_time_minutes": 32.36,
+      "architecture": {
+        "lstm_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          64
+        ],
+        "attention_heads": 8,
+        "dropout": 0.1,
+        "bidirectional": true
+      },
+      "features": {
+        "technical_indicators": 20,
+        "sentiment_features": 5,
+        "total_features": 25
+      },
+      "timestamp": "2025-10-24T01:56:27.048648"
+    },
+    "HINDUNILVR.NS": {
+      "model_type": "Hybrid LSTM with Sentiment Analysis",
+      "symbol": "HINDUNILVR.NS",
+      "accuracy": 0.8472,
+      "precision": 0.7969,
+      "recall": 0.8053,
+      "f1_score": 0.7199,
+      "auc_score": 0.8093,
+      "training_samples": 4054,
+      "test_samples": 450,
+      "training_time_minutes": 16.92,
+      "architecture": {
+        "lstm_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          64
+        ],
+        "attention_heads": 8,
+        "dropout": 0.1,
+        "bidirectional": true
+      },
+      "features": {
+        "technical_indicators": 20,
+        "sentiment_features": 5,
+        "total_features": 25
+      },
+      "timestamp": "2025-10-24T01:56:27.048648"
+    }
+  },
+  "timestamp": "2025-10-24T01:56:27.048648"
+}

@@ -1,0 +1,82 @@
+{
+  "AAPL": {
+    "logistic_regression": 0.5708955223880597,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.8134328358208955
+  },
+  "TSLA": {
+    "logistic_regression": 0.585820895522388,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.8656716417910447
+  },
+  "MSFT": {
+    "logistic_regression": 0.5298507462686567,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.9328358208955224
+  },
+  "GOOGL": {
+    "logistic_regression": 0.5634328358208955,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.9626865671641791
+  },
+  "AMZN": {
+    "logistic_regression": 0.6007462686567164,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.9477611940298507
+  },
+  "META": {
+    "logistic_regression": 0.5746268656716418,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.8432835820895522
+  },
+  "NVDA": {
+    "logistic_regression": 0.5335820895522388,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.8992537313432836
+  },
+  "NFLX": {
+    "logistic_regression": 0.5298507462686567,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.8992537313432836
+  },
+  "RELIANCE.NS": {
+    "logistic_regression": 0.5671641791044776,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.9029850746268657
+  },
+  "TCS.NS": {
+    "logistic_regression": 0.585820895522388,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.9477611940298507
+  },
+  "HDFCBANK.NS": {
+    "logistic_regression": 0.5671641791044776,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.9925373134328358
+  },
+  "INFY.NS": {
+    "logistic_regression": 0.5559701492537313,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.8955223880597015
+  },
+  "HINDUNILVR.NS": {
+    "logistic_regression": 0.5895522388059702,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.8843283582089553
+  },
+  "ITC.NS": {
+    "logistic_regression": 0.5671641791044776,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.9440298507462687
+  },
+  "SBIN.NS": {
+    "logistic_regression": 0.5671641791044776,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.9253731343283582
+  },
+  "BHARTIARTL.NS": {
+    "logistic_regression": 0.5671641791044776,
+    "random_forest": 1.0,
+    "hybrid_lstm": 0.7761194029850746
+  }
+}

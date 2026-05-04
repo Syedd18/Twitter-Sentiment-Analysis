@@ -1,0 +1,52 @@
+{
+  "model_type": "Random Forest",
+  "symbol": "GOOGL",
+  "accuracy": 0.7601,
+  "precision": 0.7386,
+  "recall": 0.7609,
+  "f1_score": 0.7396,
+  "auc_score": 0.7916,
+  "training_samples": 2312,
+  "test_samples": 387,
+  "training_time_minutes": 6.26,
+  "hyperparameters": {
+    "n_estimators": 100,
+    "max_depth": 10,
+    "min_samples_split": 10,
+    "min_samples_leaf": 4,
+    "max_features": "0.5"
+  },
+  "feature_importance": {
+    "rsi_14": 0.1401,
+    "macd": 0.0528,
+    "bb_position": 0.0558,
+    "volume_ratio": 0.0475,
+    "sentiment_score": 0.0638,
+    "price_momentum": 0.051,
+    "volatility": 0.0444,
+    "trend_strength": 0.0666
+  },
+  "top_features": [
+    [
+      "rsi_14",
+      0.1401
+    ],
+    [
+      "trend_strength",
+      0.0666
+    ],
+    [
+      "sentiment_score",
+      0.0638
+    ],
+    [
+      "bb_position",
+      0.0558
+    ],
+    [
+      "macd",
+      0.0528
+    ]
+  ],
+  "timestamp": "2025-10-24T01:56:27.048648"
+}

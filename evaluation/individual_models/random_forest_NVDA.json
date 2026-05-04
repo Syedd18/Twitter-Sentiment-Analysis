@@ -1,0 +1,52 @@
+{
+  "model_type": "Random Forest",
+  "symbol": "NVDA",
+  "accuracy": 0.7073,
+  "precision": 0.7074,
+  "recall": 0.7032,
+  "f1_score": 0.7259,
+  "auc_score": 0.7245,
+  "training_samples": 1841,
+  "test_samples": 255,
+  "training_time_minutes": 8.06,
+  "hyperparameters": {
+    "n_estimators": 50,
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 2,
+    "max_features": "0.5"
+  },
+  "feature_importance": {
+    "rsi_14": 0.064,
+    "macd": 0.1047,
+    "bb_position": 0.0736,
+    "volume_ratio": 0.0295,
+    "sentiment_score": 0.1386,
+    "price_momentum": 0.0828,
+    "volatility": 0.0585,
+    "trend_strength": 0.0896
+  },
+  "top_features": [
+    [
+      "sentiment_score",
+      0.1386
+    ],
+    [
+      "macd",
+      0.1047
+    ],
+    [
+      "trend_strength",
+      0.0896
+    ],
+    [
+      "price_momentum",
+      0.0828
+    ],
+    [
+      "bb_position",
+      0.0736
+    ]
+  ],
+  "timestamp": "2025-10-24T01:56:27.048648"
+}

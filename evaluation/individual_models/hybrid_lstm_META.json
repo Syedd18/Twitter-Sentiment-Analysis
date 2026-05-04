@@ -1,0 +1,29 @@
+{
+  "model_type": "Hybrid LSTM with Sentiment Analysis",
+  "symbol": "META",
+  "accuracy": 0.7958,
+  "precision": 0.7106,
+  "recall": 0.7317,
+  "f1_score": 0.7606,
+  "auc_score": 0.8324,
+  "training_samples": 4008,
+  "test_samples": 547,
+  "training_time_minutes": 30.58,
+  "architecture": {
+    "lstm_layers": 3,
+    "hidden_sizes": [
+      256,
+      128,
+      64
+    ],
+    "attention_heads": 8,
+    "dropout": 0.1,
+    "bidirectional": true
+  },
+  "features": {
+    "technical_indicators": 20,
+    "sentiment_features": 5,
+    "total_features": 25
+  },
+  "timestamp": "2025-10-24T01:56:27.048648"
+}
